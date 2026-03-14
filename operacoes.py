@@ -1,19 +1,11 @@
-#preciso multiplicar as pastas e separar os documentos para backup.
+#crie uma função de multiplicação.
 from os import system as lt
 lt("cls")
 
-def multiplicar (pasta1, pasta2):
-    res = pasta1 * pasta2
-    return res
+def multiplicar (val1, val2):
+    resultado = val1 * val2
+    return resultado
 
 resultado = multiplicar (10, 8)
-print ("Pastas Multiplicadas:")
+print ("Resultado")
 print(resultado)
-
-def separador_doc (doc01, doc02):
-    res = doc01 * doc02
-    return res 
-
-separacao = separador_doc (45, 7)
-print ("Documentos Separados:")
-print(separacao)
