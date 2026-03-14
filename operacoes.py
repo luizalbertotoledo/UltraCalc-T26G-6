@@ -7,7 +7,6 @@ try:
     numero=input("digite um numero ")
     num=int (numero)
     print(num)
-    return num
 except ValueError:
     print("Erro! Digite um número inteiro")
     
