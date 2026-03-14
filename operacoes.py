@@ -2,7 +2,9 @@ def potencia(base, expoente):
     res = base ** expoente
     return res
 
-def media (primeiro, segundo):
-    resul = (primeiro + segundo) /2
-    return resul
+import math
+
+def graus_para_radianos(angulo_graus):
+    resultado = math.radians(angulo_graus)
+    return resultado
 
