@@ -1,9 +1,8 @@
 import math
 
-def seno(angulo_grau):
-    angulos_radianos = math.radians(angulo_grau)
-    angulo_seno = math.sin(angulos_radianos)
-    return angulo_seno
+def log_base10(num):
+    resultado = math.log10(num)
+    return resultado
 
-
+print(log_base10(20))
 
