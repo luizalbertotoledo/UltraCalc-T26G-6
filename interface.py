@@ -1,6 +1,6 @@
-def exibir_boas_vindas(Senai_Sertaozinho):
+def exibir_boas_vindas():
 
  print("==================================================")
  print("           BEM VINDO FAÇA SEU CALCULO             ")
- print(f"   Sistema Desenvolvido para: Senai_Sertaozinho  ")
+ print(f"        Sistema Desenvolvido para: Senai         ")
  print("==================================================")
