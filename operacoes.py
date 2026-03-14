@@ -1,11 +1,12 @@
-#crie uma função de multiplicação.
-from os import system as lt
-lt("cls")
+#Função Tangente
 
-def multiplicar (val1, val2):
-    resultado = val1 * val2
-    return resultado
+import math
 
-resultado = multiplicar (10, 8)
-print ("Resultado")
-print(resultado)
+def tangente(angulo_graus):
+    angulo_radianos = math.radians(angulo_graus)
+    return math.tan(angulo_radianos)
+
+angulo = float(input("Digite o ângulo em graus: "))
+resultado = tangente(angulo)
+
+print("A tangente do ângulo é:", resultado)
