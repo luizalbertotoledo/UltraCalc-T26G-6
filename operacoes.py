@@ -1,7 +1,10 @@
 import math 
 
-numero = float(input("Digite um numero: "))
-resultado_raiz = math.sqrt(numero)
+def cosseno (graus):
+    radianos = math.radians(graus)
+    res = math.cos(radianos)
+    return res
 
+resultado = cosseno(float(input("Digite um numero: ")))
 
-print(f"A raíz quadrada de {numero} é {resultado_raiz}")
+print(f"O resultado é {resultado}")
