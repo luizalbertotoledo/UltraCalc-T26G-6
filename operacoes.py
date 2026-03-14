@@ -1,4 +1,8 @@
-import math 
+import math
+
+def log_base10(num):
+    resultado = math.log10(num)
+    return resultado
 
 def valor_porcentagem (valor, percentual):
     res = (valor * percentual) / 100
