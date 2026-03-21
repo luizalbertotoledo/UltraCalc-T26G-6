@@ -25,7 +25,3 @@ def registrar_calculo(expressao, resultado):
     historico.append(entrada)
     salvar_historico(historico)
 
-# Exemplo de uso
-registrar_calculo("2 + 3", 5)
-registrar_calculo("10 / 2", 5.0)
-registrar_calculo("7 * 8", 56)
