@@ -1,7 +1,11 @@
-<<<<<<< HEAD
 Andre
-=======
+Luis Miguel
+
+Gabriel José
+Carlos Paranhos 
+Willians flavio
+joao pedro
 Reginaldo
 Daniel Novaes
 Dillan Carneiro Silva
->>>>>>> 18dd8792ef483ec4fc64f9304b2581f75a8f9b71
+
