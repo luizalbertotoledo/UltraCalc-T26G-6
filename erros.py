@@ -1,19 +1,9 @@
-def potencia(base, expoente):
-    res = base ** expoente
-    return res
+def errolog(tipo_erro, mensagem):
+    from datetime import datetime
 
-def dividir(a, b):
-    return a/b
+    agora = datetime.now()
+    data = f"{agora.day:02d}/{agora.month:02d}/{agora.year} {agora.hour:02d}:{agora.minute:02d}:{agora.second:02d}"
+    linha = f"{data} | {tipo_erro} | {mensagem}\n"
 
-try:
-    numero1 = float(input("Digite o primeiro número: "))
-    numero2 = float(input("Digite o segundo número: "))
-    
-    resultado = dividir(numero1, numero2)
-    print(f"O resultado é: {resultado}")
-
-except ValueError:
-    print("Erro: Entrada inválida. Digite apenas números.")
-
-except ZeroDivisionError:
-    print("Erro: Não é possível dividir por zero.")
+    with open("dados/erros_log.txt", "a", encoding="utf-8") as arq:
+        arq.write(linha)
