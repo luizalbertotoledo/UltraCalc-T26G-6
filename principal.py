@@ -1,17 +1,18 @@
-def somar(numero1, numero2):
-    res = numero1 + numero2
-    return res
-
 def executar_sistema():
     while True:
-
-
-        opcao = int(input("numero int"))
+        exibir_boas_vindas()
+        exibir_menu()
+        opcao = ler_opcao_menu()
         if opcao == 1:
             print("Somando...")
-            somar()
-
-            
-        if opcao == "0":
+        elif opcao == 2:
+            print("Subtraindo...")
+        elif opcao == 3:
+            print("Multiplicando...")
+        elif opcao == 4:
+            print("Dividindo...")
+        elif opcao == 5:
+            print("Potenciando...")
+        elif opcao == "0":
             print("Encerrando o sistema...")
             break

@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 Allan Sanchez
+=======
+Willians flavio
+joao pedro
+Reginaldo
+Daniel Novaes
+Dillan Carneiro Silva
+>>>>>>> 3f4c6c4f5bcc7e994ef738f04443ec6423faa569
