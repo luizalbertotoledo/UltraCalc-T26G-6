@@ -13,6 +13,6 @@ def executar_sistema():
             print("Dividindo...")
         elif opcao == 5:
             print("Potenciando...")
-        elif opcao == "0":
+        elif opcao == 0:
             print("Encerrando o sistema...")
             break
