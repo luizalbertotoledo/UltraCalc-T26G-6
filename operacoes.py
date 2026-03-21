@@ -1,3 +1,8 @@
+import math
+
+def log_base10(num):
+    resultado = math.log10(num)
+    return resultado
 
 
 from os import system as limp

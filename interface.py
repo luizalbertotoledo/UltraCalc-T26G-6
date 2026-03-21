@@ -1,3 +1,10 @@
+def exibir_boas_vindas():
+
+    print("==================================================")
+    print("           BEM VINDO FAÇA SEU CALCULO             ")
+    print(f"        Sistema Desenvolvido para: Senai         ")
+    print("==================================================")
+ 
 def alterar_nome_empresa():
     codigo = input("Digite o código: ")
 
