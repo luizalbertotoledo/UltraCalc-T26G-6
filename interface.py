@@ -26,4 +26,4 @@ def show_menu():
     print(40*'=')
     
 
-show_menu()
+
