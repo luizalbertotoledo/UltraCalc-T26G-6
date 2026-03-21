@@ -1,3 +1,18 @@
+def dividir(numero1, numero2):
+    try:
+        numero1 = float(input("Digite o primeiro número: "))
+        numero2 = float(input("Digite o segundo número: "))
+        resultado = dividir(numero1, numero2)
+        print(resultado)
+
+    except ValueError:
+        print("Entrada inválida. Digite apenas números.")
+
+    except ZeroDivisionError:
+        print("Não é possível dividir por zero.")
+
+
+
 def errolog(tipo_erro, mensagem):
     from datetime import datetime
 
