@@ -1,6 +1,5 @@
-def multiplica(vl1, vl2):
-    res = vl1 * vl2
-    return res
+import math
 
-resultado = multiplica(7, 6)
-print(resultado)
+def tangente(angulo_graus):
+    angulo_radianos = math.radians(angulo_graus)
+    return math.tan(angulo_radianos)
