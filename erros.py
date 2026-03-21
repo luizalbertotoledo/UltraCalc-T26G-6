@@ -1,8 +1,14 @@
-def dividir(numero1, numero2):
+def trat_erro(numero1, numero2, operacao):
     try:
-        numero1 = float(input("Digite o primeiro número: "))
-        numero2 = float(input("Digite o segundo número: "))
-        resultado = dividir(numero1, numero2)
+        match operacao:
+            case "/":
+                resultado = numero1 / numero2
+            case "*":
+                resultado = numero1 * numero2
+            case "-":
+                resultado = numero1 - numero2
+            case "+":
+                resultado = numero1 + numero2
         print(resultado)
 
     except ValueError:
